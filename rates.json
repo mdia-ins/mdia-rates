@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-09-21T17:03:33.158Z",
+ "updated": "2026-11-05T17:09:40.337Z",
  "variant": "A",
  "thresholds": [
   1000,
@@ -813,15 +813,15 @@
    ]
   },
   {
-   "id": "heartland_4079",
+   "id": "cust_mw3sg0fu",
    "carrier": "Heartland National",
-   "product": "Home Health Care / Hospital Indemnity",
+   "product": "Home Health Care",
    "cat": "Supplemental Health",
    "basis": "pct_mbd",
-   "note": "Issue ages 40-79.",
+   "note": "All States",
    "bands": [
     {
-     "label": "Home Health Care - ages 40-79",
+     "label": "Ages 40-79",
      "rates": [
       4.6,
       4.7,
@@ -837,31 +837,11 @@
      "renewal": {
       "type": "pct",
       "value": 0.02,
-      "note": "Years 2+"
+      "note": "Years 2-10 2%"
      }
     },
     {
-     "label": "Hospital Indemnity - ages 40-79",
-     "rates": [
-      4.1,
-      4.2,
-      4.3,
-      4.4,
-      4.5,
-      4.6,
-      4.7,
-      4.8,
-      4.9,
-      5
-     ],
-     "renewal": {
-      "type": "pct",
-      "value": 0.02,
-      "note": "Years 2+"
-     }
-    },
-    {
-     "label": "H.I. and HHC - ages 80+",
+     "label": "Ages 80+",
      "rates": [
       2.6,
       2.7,
@@ -877,7 +857,7 @@
      "renewal": {
       "type": "pct",
       "value": 0.02,
-      "note": "Years 2+"
+      "note": "Years 2-10 2%"
      }
     }
    ]
@@ -978,6 +958,36 @@
       "type": "pct",
       "value": 0,
       "note": "No renewal"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cust_mw3sdjhn",
+   "carrier": "Heartland National",
+   "product": "Hospital Indemnity",
+   "cat": "Ancillary",
+   "basis": "pct_mbd",
+   "note": "All States",
+   "bands": [
+    {
+     "label": "All Ages",
+     "rates": [
+      3.6,
+      3.7,
+      3.8,
+      3.9,
+      4,
+      4.1,
+      4.2,
+      4.3,
+      4.4,
+      4.5
+     ],
+     "renewal": {
+      "type": "pct",
+      "value": 0.02,
+      "note": "Years 2-10 2%"
      }
     }
    ]
