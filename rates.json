@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-05T17:09:40.337Z",
+ "updated": "2026-11-23T20:23:57.462Z",
  "variant": "A",
  "thresholds": [
   1000,
@@ -449,35 +449,6 @@
    ]
   },
   {
-   "id": "gtl_fe",
-   "carrier": "GTL",
-   "product": "Final Expense",
-   "cat": "Final Expense",
-   "basis": "pct_mbd",
-   "bands": [
-    {
-     "label": "All ages",
-     "rates": [
-      1.75,
-      2,
-      2.25,
-      2.5,
-      2.75,
-      3,
-      3.25,
-      3.5,
-      3.75,
-      4
-     ],
-     "renewal": {
-      "type": "pct",
-      "value": 0.02,
-      "note": "Years 2-10; 0% years 11+"
-     }
-    }
-   ]
-  },
-  {
    "id": "cust_mu5pvgm3",
    "carrier": "All other carriers - Final Expense",
    "product": "Final Expense",
@@ -523,6 +494,36 @@
       "type": "pct",
       "value": 0.02,
       "note": "Years 2-10"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cust_mwtpoatp",
+   "carrier": "Gerber Life/GTL",
+   "product": "G.I. Final Expense",
+   "cat": "Final Expense",
+   "basis": "pct_mbd",
+   "note": "All States",
+   "bands": [
+    {
+     "label": "All ages",
+     "rates": [
+      1.75,
+      2,
+      2.25,
+      2.5,
+      2.75,
+      3,
+      3.25,
+      3.5,
+      3.75,
+      4
+     ],
+     "renewal": {
+      "type": "pct",
+      "value": 0.02,
+      "note": "2% Years 2-10"
      }
     }
    ]
